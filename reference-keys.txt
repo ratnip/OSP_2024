@@ -20,3 +20,17 @@ poželjne-karakteristike-procesa-analize-podataka
 organizacija-mapa-za-potrebe-analize-podataka
 pojam-projekta
 kako-koristiti-ovaj-udžbenik
+tipovi
+osnovni-tipovi-podataka
+operatori
+nedostajuće-nepoznate-i-nemoguće-vrijednosti
+vektori
+stvaranje-vektora
+operator
+principi-vektorizacije-i-recikliranja
+indeksni-vektori
+lokacijsko-referenciranje
+uvjetno-referenciranje
+imensko-referenciranje
+matrice-i-polja
+rezanje-matrica
