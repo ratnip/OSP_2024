@@ -23,7 +23,7 @@
 <meta name="author" content="Damir Pintar" />
 
 
-<meta name="date" content="2024-09-30" />
+<meta name="date" content="2024-10-14" />
 
   <meta name="viewport" content="width=device-width, initial-scale=1" />
   <meta name="apple-mobile-web-app-capable" content="yes" />
@@ -31,7 +31,7 @@
   
   
 <link rel="prev" href="uvod.html"/>
-
+<link rel="next" href="okviri.html"/>
 <script src="libs/jquery-3.6.0/jquery-3.6.0.min.js"></script>
 <script src="https://cdn.jsdelivr.net/npm/fuse.js@6.4.6/dist/fuse.min.js"></script>
 <link href="libs/gitbook-2.6.7/css/style.css" rel="stylesheet" />
@@ -254,6 +254,17 @@ code span.wa { color: #60a0b0; font-weight: bold; font-style: italic; } /* Warni
 </ul></li>
 <li class="chapter" data-level="" data-path="tipovi.html"><a href="tipovi.html#zadaci-za-vježbu"><i class="fa fa-check"></i>Zadaci za vježbu</a></li>
 </ul></li>
+<li class="chapter" data-level="3" data-path="okviri.html"><a href="okviri.html"><i class="fa fa-check"></i><b>3</b> Liste, podatkovni okviri i faktori</a>
+<ul>
+<li class="chapter" data-level="3.1" data-path="okviri.html"><a href="okviri.html#liste"><i class="fa fa-check"></i><b>3.1</b> Liste</a></li>
+<li class="chapter" data-level="3.2" data-path="okviri.html"><a href="okviri.html#podatkovni-okviri"><i class="fa fa-check"></i><b>3.2</b> Podatkovni okviri</a>
+<ul>
+<li class="chapter" data-level="3.2.1" data-path="okviri.html"><a href="okviri.html#odabir-redaka-i-stupaca-podatkovnih-okvira"><i class="fa fa-check"></i><b>3.2.1</b> Odabir redaka i stupaca podatkovnih okvira</a></li>
+<li class="chapter" data-level="3.2.2" data-path="okviri.html"><a href="okviri.html#dodavanje-i-brisanje-redaka-i-stupaca"><i class="fa fa-check"></i><b>3.2.2</b> Dodavanje i brisanje redaka i stupaca</a></li>
+</ul></li>
+<li class="chapter" data-level="3.3" data-path="okviri.html"><a href="okviri.html#faktori"><i class="fa fa-check"></i><b>3.3</b> Faktori</a></li>
+<li class="chapter" data-level="" data-path="okviri.html"><a href="okviri.html#zadaci-za-vježbu-1"><i class="fa fa-check"></i>Zadaci za vježbu</a></li>
+</ul></li>
 </ul>
 
       </nav>
@@ -464,7 +475,7 @@ code span.wa { color: #60a0b0; font-weight: bold; font-style: italic; } /* Warni
 <p>Isto tako, već smo spomenuli da R nudi dva operatora pridruživanja, <code>&lt;-</code> i <code>=</code>. Između njih postoje neke sitne razlike, no one nemaju gotovo nikakav utjecaj na uobičajeno korištenje ovog operatora u praksi. U literaturi se za pridruživanje vrijednosti novim varijablama može vidjeti i jedna i druga inačica, no mi ćemo u nastavku primarno i konzistentno koristiti <code>&lt;-</code>, ponajviše zato kako bi programski kod bio vizualno distinktivniji od drugih programskih jezika.</p>
 <p><em>NAPOMENA: za jednostavniji upis operatora <code>&lt;-</code> možemo se koristiti kombinacijom tipaka <code>ALT</code> i <code>-</code></em></p>
 <p>Kod pridruživanja pazimo da je s lijeve strane tzv. “lijeva vrijednost” (engl. <em>lvalue</em>). Ovo u programerskom smislu interpretiramo kao “nešto u što se može pohraniti izračunata vrijednost”.</p>
-<div class="sourceCode" id="cb19"><pre class="sourceCode r"><code class="sourceCode r"><span id="cb19-1"><a href="tipovi.html#cb19-1" tabindex="-1"></a>x <span class="sc">+</span> <span class="dv">1</span> <span class="ot">&lt;-</span> <span class="dv">2</span>          <span class="co"># greška!!!]</span></span></code></pre></div>
+<div class="sourceCode" id="cb19"><pre class="sourceCode r"><code class="sourceCode r"><span id="cb19-1"><a href="tipovi.html#cb19-1" tabindex="-1"></a>x <span class="sc">+</span> <span class="dv">1</span> <span class="ot">&lt;-</span> <span class="dv">2</span>          <span class="co"># greška!!!</span></span></code></pre></div>
 <p>U pravilu se u R-u kao <em>lvalue</em> koristi varijabla, iako se tu ponekad može pojaviti i poziv funkcije. Ovu možda inicijalno zbunjujuću pojavu razjasniti ćemo kasnije.</p>
 <hr />
 <!-- ## Imenovanje varijabli -->
@@ -1306,8 +1317,8 @@ code span.wa { color: #60a0b0; font-weight: bold; font-style: italic; } /* Warni
           </div>
         </div>
       </div>
-<a href="uvod.html" class="navigation navigation-prev navigation-unique" aria-label="Previous page"><i class="fa fa-angle-left"></i></a>
-
+<a href="uvod.html" class="navigation navigation-prev " aria-label="Previous page"><i class="fa fa-angle-left"></i></a>
+<a href="okviri.html" class="navigation navigation-next " aria-label="Next page"><i class="fa fa-angle-right"></i></a>
     </div>
   </div>
 <script src="libs/gitbook-2.6.7/js/app.min.js"></script>

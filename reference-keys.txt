@@ -34,3 +34,9 @@ uvjetno-referenciranje
 imensko-referenciranje
 matrice-i-polja
 rezanje-matrica
+okviri
+liste
+podatkovni-okviri
+odabir-redaka-i-stupaca-podatkovnih-okvira
+dodavanje-i-brisanje-redaka-i-stupaca
+faktori
